@@ -34,7 +34,7 @@ const Header = () => {
 
         <nav className="mt-2">
           <ul>
-            <li className="py-3 px-8 text-xl">
+            <li className="py-3 px-8 text-xl text-orange-400">
               <a href="#home">HOME</a>
             </li>
             <li className="py-3 px-8 text-xl">
