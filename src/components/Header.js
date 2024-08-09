@@ -50,10 +50,10 @@ const Header = () => {
               <a href="#contact">CONNECT WITH US</a>
             </li>
           </ul>
-          <div className="mt-36 text-xl">
+          <div className="lg:mt-36 mt-20 text-md">
             <h1 className="mb-4 px-8">
               TEXT SUPPORT 24/7
-              <span className="font-normal underline text-orange-500 ml-2">
+              <span className="font-normal whitespace-nowrap underline text-orange-500 ml-2">
                 070-7782-9137
               </span>
             </h1>

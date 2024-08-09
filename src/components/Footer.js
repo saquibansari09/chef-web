@@ -7,8 +7,8 @@ import img2 from "../images/Chef-Matt-rev-white-high-res-1-2048x1365 2.png";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="relative flex justify-center md:justify-end h-[130vh] bg-[#130a04]">
+    <div className="bg-[#130a04]">
+      <footer className="relative flex justify-center md:justify-end lg:h-[160vh] md:h-[200vh] bg-[#130a04] h-[200vh]">
         <img
           src={img}
           alt="Footer"
@@ -32,8 +32,8 @@ const Footer = () => {
               Subscribe
             </button>
           </div>
-          <div className="flex flex-col md:flex-row justify-between mt-14 md:mt-28 px-5 gap-10 md:gap-0">
-            <div className="flex flex-col gap-2 text-xl md:text-2xl text-orange-300 mt-10 md:mt-20">
+          <div className="flex flex-col lg:flex-row justify-between mt-14 md:mt-0 lg:mt-10 px-5 gap-10 md:gap-0">
+            <div className="flex flex-col gap-2 text-xl md:text-2xl text-orange-300 mt-10 lg:mt-20 md:4">
               <div className="flex items-center gap-2">
                 <AiOutlineDelete className="text-3xl md:text-4xl" />
                 <h1>FREE SHIPPING WORLDWIDE</h1>
@@ -42,7 +42,7 @@ const Footer = () => {
                 Guaranteed Delivery
               </p>
             </div>
-            <div className="flex flex-col gap-2 text-xl md:text-2xl text-orange-300 mt-10 md:mt-20">
+            <div className="flex flex-col gap-2 text-xl md:text-2xl text-orange-300 mt-10 lg:mt-20 md:4">
               <div className="flex items-center gap-2">
                 <FaHeadphones className="text-3xl md:text-4xl" />
                 <h1>FREE SHIPPING WORLDWIDE</h1>
@@ -51,7 +51,7 @@ const Footer = () => {
                 Text Us 24/7 at 070-7782-9137
               </p>
             </div>
-            <div className="flex flex-col gap-2 text-xl md:text-2xl text-orange-300 mt-10 md:mt-20">
+            <div className="flex flex-col gap-2 text-xl md:text-2xl text-orange-300 mt-10 lg:mt-20 md:4">
               <div className="flex items-center gap-2">
                 <BsArrowUpRightCircleFill className="text-3xl md:text-4xl" />
                 <h1>FREE SHIPPING WORLDWIDE</h1>
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
           </div>
           <hr className="border-b-8 border-orange-300 w-full mt-10 md:mt-14" />
-          <div className="bg-[#130a04] flex items-center justify-center mt-10 md:mt-0">
+          <div className="w-full bg-[#130a04] flex items-center justify-center mt-10 md:mt-0">
             <img
               src={img2}
               alt="Chef Matt"

@@ -17,7 +17,7 @@ const slide_imgs = [
 
 const Product = () => {
   const swiperRef = useRef();
-  const [swiper1, setswiper1] = useState(null);
+  //   const [swiper1, setswiper1] = useState(null);
 
   return (
     <div className="bg-[#130a04] pl-8 md:pl-56 pt-28 relative">
@@ -90,7 +90,7 @@ const Product = () => {
         />
       </div>
 
-      <div className="relative h-[300px] md:h-[500px]">
+      <div className="relative h-[300px]  mr-3 md:h-[500px]">
         <Swiper
           pagination={{
             clickable: true,
@@ -99,14 +99,18 @@ const Product = () => {
           spaceBetween={0}
           slidesPerView={1}
           onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => setswiper1(swiper)}
+          //   onSwiper={(swiper) => setswiper1(swiper)}
         >
           {slide_imgs.map((v, i) => (
             <SwiperSlide
-              className="relative h-[300px] md:h-[500px] w-full"
+              className="relative mt-10 h-[300px] md:h-[500px] w-full"
               key={i}
             >
-              <img className="w-full h-full object-cover" src={v} alt="item1" />
+              <img
+                className="w-full lg:h-[300px] h-[220px] object-cover"
+                src={v}
+                alt="item1"
+              />
               <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-white p-4">
                 <h1 className="text-2xl md:text-4xl text-black border-b-2 md:border-b-4 border-black text-center pb-2 md:pb-6">
                   ONLINE ONLY

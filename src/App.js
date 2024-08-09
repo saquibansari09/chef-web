@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <div>
-      <div className="">
+      <div className="bg-black">
         <div>
           <Header />
           <Swiper
@@ -42,7 +42,7 @@ const App = () => {
                   />
 
                   <div className="absolute bottom-14">
-                    <button className="px-20 py-4 font-bold border-[4px] text-2xl text-white">
+                    <button className="sm:px-20 p-8 py-4 font-bold border-[4px] text-2xl text-white">
                       Meet Chef Matt
                     </button>
                   </div>
